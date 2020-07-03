@@ -11,8 +11,8 @@ The assets we used are *Amazon stock price (AMZN), Boeing stock price (BA) and S
 
 ### 3. Conclusion
 
- || Normal period |Extreme period |
-|| VaR| ES| VaR |ES |
+|| VaR (Normal)| ES(Normal)| VaR (Extreme)|ES(Extreme)|
+|---|---|---|---|---|
 | No-hedged | 19880.08 |28112.97| 29403.74| 38335.94| 
 |Amazon |4913.82 |6743.60| 9724.11 |12829.04 |
 |S&P500| 22310.73| 29720.14| 25902.09 |33242.23|
