@@ -1,15 +1,18 @@
-# VaR/ES With Hedge Process
+VaR/ES With Hedge Process
+=============
 
-
-### 1. VaR
+Why VaR
+----------------
 Risk measurement is the basis of risk management. The VaR approach is attractive because it is easy to understand (VaR is measured in monetary units) and it provides an estimate of the amount of capital that is needed to support a certain level of risk. Another advantage of this measure is the ability to incorporate the effects of portfolio diversification. 
 
-### 2. Introduction
+Introduction
+-----------------------
 In this project, we estimate **Value-at-risk (VaR) and Expected Shortfall (ES)** of a portfolio between normal period and coronavirus period that contains several assets which include US stock, US index, with the US stocks hedged with stock put option. 
 
 The assets we used are *Amazon stock price (AMZN), Boeing stock price (BA) and SP500*. Our data starts at 1997-05-15, which is also the date when amazon's stock price starts. We compare the results in the portfolio with fully-hedged, partially hedged or without the hedging. This topic is inspired by the current issue of COVID-19 and by our discussions in class about options and partial risk hedges. 
 
-### 3. Conclusion
+Conclusion
+------------------------
 
 || VaR (Normal)| ES(Normal)| VaR (Extreme)|ES(Extreme)|
 |---|---|---|---|---|
